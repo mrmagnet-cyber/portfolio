@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
     background-color: #000000;
@@ -25,6 +26,11 @@ nav{
     margin-top: 25px;
     z-index: 1000;
     
+    
+}
+
+nav h1{
+    font-size: 20px;
 }
 
 nav ul {
@@ -40,19 +46,36 @@ nav ul {
 .grid-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 100%;
+    grid-column-gap: 100px;
 
     
 }
 
 .grid-text{
     align-content: center;
+    margin-top: 50px;
 }
 
-.grid-img {
-    text-align: right;
-    width: 300px;
+.grid-text h1{
+    font-size: 40px;
 }
+
+.grid-text p{
+    font-size: 12px;
+    line-height: 2;
+    margin-bottom: 50px;
+}
+
+.grid-text h2{
+    font-size: 15px;
+    text-decoration: underline;
+    text-decoration-color: green;
+    text-decoration-thickness: 1.5px;
+    text-decoration-skip-ink: none; 
+    text-underline-offset: 1em; 
+    letter-spacing: 2;
+}
+
 
 .grid-container img {
     width: 300px;
@@ -77,6 +100,16 @@ nav ul {
     margin-bottom: 50px;
     padding-left: 0;
 }
+
+.skills h3{
+    font-size: 22px;
+}
+
+.skills h4{
+    margin-top: 10px;
+    font-size: 10px;
+}
+
 
 
 
@@ -120,16 +153,36 @@ nav ul {
     margin: 5px 0;
 }
 
+.projects p{
+    font-size: 12px;
+}
+
 .contact{
     margin-left: 230px;
     margin-right: 230px;
-    padding: 50px;
-    
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 100px;
+    justify-content: space-between;
+}
+
+.contact h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.contact p{
+    font-size: 15px;
+}
+
+textarea{
+    border-radius: 5px;
 }
 
 #section-2{
     background-color: #262628;
-    height: 600px;
+    height: 450px;
     
     
 }
