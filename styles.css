@@ -56,6 +56,14 @@ nav ul {
     margin-top: 50px;
 }
 
+span {
+    text-decoration: underline;
+    text-decoration-color: green;
+    text-decoration-thickness: 5px;
+    text-decoration-skip-ink: none; 
+    text-underline-offset: 0.2em; 
+}
+
 .grid-text h1{
     font-size: 40px;
 }
